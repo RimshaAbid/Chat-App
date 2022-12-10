@@ -45,7 +45,7 @@
                 console.log('submitted');
             });
             socket.on('new message', function(data){
-                $chat.append('<div class="well">'+data.msg+'</div>');
+                $chat.append('<div class="well">'+ data.msg+'</div>');
             });
 
         })
